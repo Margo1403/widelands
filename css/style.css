@@ -123,10 +123,17 @@
     padding-left: 71px; 
 }
 
-.nav {
-    background: url(../img/meil.svg);
-    background-repeat: no-repeat;
-   
+.links {
+    display: flex;
+    flex-wrap: nowrap;
+    left: 100px;
+    top: 33px;
+    width: 20px;
+    height: 20px;
+    padding-left: 200px;
+    padding-top: 23px;
+
+
 }
 
 .page-header::before {
@@ -145,8 +152,16 @@
 
 
 
+.block-info {
+    display: flex;
+    
+}
 
+.block-tel {
+    display: flex;
 
+  
+}
 .export {
     margin-left: 100px;
     margin-right: 100px;  
@@ -163,15 +178,21 @@
 
 }
 
-.product {
+.export-product {
     font-family: SF Pro Display;
     font-style: normal;
     font-weight: bold;
     font-size: 120px;
     line-height: 90%;
     color: #072234;
-    margin-top: 30px;
-   
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.highight {
+    color: #409DE2
+    
 }
 
 .tel {
@@ -181,6 +202,8 @@
     font-size: 16px;
     line-height: 140%;
     color: #072234;
+ 
+   
   
 
 }
