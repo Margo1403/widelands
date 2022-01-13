@@ -55,7 +55,134 @@
     font-style: normal;
 }
 
+
+
 .body {
     margin: 0;
     padding: 0;
+    
 }
+
+.header-block {
+    margin-top: 33px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    
+}
+
+.nav-list {
+    display: flex;
+   
+}
+
+.nav-link-nav-link-active {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #409DE2;
+    padding-left: 876px;
+
+        
+}
+
+
+.nav-link-nav-link-active::before {
+    position: absolute;
+    left: 62.79%;
+    right: 32.5%;
+   
+    bottom: 0%;
+    background: #409DE2;
+    content: "";
+    width: 81px;
+    height: 3px;
+}
+
+
+.nav-link {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #072234;
+    padding-left: 70px;
+
+}
+
+.nav-link-Contact {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #072234;
+    padding-left: 71px; 
+}
+
+.nav {
+    background: url(../img/meil.svg);
+    background-repeat: no-repeat;
+   
+}
+
+.page-header::before {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 97.3%;
+    bottom: 1.35%;
+    background: #E0E0E0;
+    content: "";
+    width: 1720px;
+    height: 1px;
+  
+   
+}
+
+
+
+
+
+.export {
+    margin-left: 100px;
+    margin-right: 100px;  
+}
+
+.text {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #8C9EAA;
+  
+
+}
+
+.product {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 90%;
+    color: #072234;
+    margin-top: 30px;
+   
+}
+
+.tel {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #072234;
+  
+
+}
+
+
