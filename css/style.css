@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "Gilroy";
+    font-family: "SFPRODISPLAY";
     src: url("../fonts/SFPRODISPLAY-BLACK.TTF");
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Gilroy";
+    font-family: "SFPRODISPLAY";
     src: url("../fonts/SFPRODISPLAY-BOLD.TTF");
     font-weight: 700;
     font-style: normal;
@@ -14,42 +14,42 @@
 
 
 @font-face {
-    font-family: "Gilroy";
+    font-family: "SFPRODISPLAY";
     src: url("../fonts/SFPRODISPLAY-LIGHT.TTF");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Gilroy";
+    font-family: "SFPRODISPLAY";
     src: url("../fonts/SFPRODISPLAY-MEDIUM.TTF");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Gilroy";
+    font-family: "SFPRODISPLAY";
     src: url("../fonts/SFPRODISPLAY-REGULAR.TTF");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Gilroy";
+    font-family: "GSFPRODISPLAY";
     src: url("../fonts/SFPRODISPLAY-SEMIBOLD.TTF");
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Gilroy";
+    font-family: "SFPRODISPLAY";
     src: url("../fonts/SFPRODISPLAY-THINITALIC.TTF");
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Gilroy";
+    font-family: "SFPRODISPLAY";
     src: url("../fonts/SFPRODISPLAY-ULTRALIGHT.TTF");
     font-weight: 200;
     font-style: normal;
