@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "SFPRODISPLAY";
+    font-family: "SF PRO DISPLAY";
     src: url("../fonts/SFPRODISPLAY-BLACK.TTF");
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "SFPRODISPLAY";
+    font-family: "SF PRO DISPLAY";
     src: url("../fonts/SFPRODISPLAY-BOLD.TTF");
     font-weight: 700;
     font-style: normal;
@@ -14,42 +14,42 @@
 
 
 @font-face {
-    font-family: "SFPRODISPLAY";
+    font-family: "SF PRO DISPLAYY";
     src: url("../fonts/SFPRODISPLAY-LIGHT.TTF");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "SFPRODISPLAY";
+    font-family: "SF PRO DISPLAY";
     src: url("../fonts/SFPRODISPLAY-MEDIUM.TTF");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "SFPRODISPLAY";
+    font-family: "SF PRO DISPLAY";
     src: url("../fonts/SFPRODISPLAY-REGULAR.TTF");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "GSFPRODISPLAY";
+    font-family: "SF PRO DISPLAY";
     src: url("../fonts/SFPRODISPLAY-SEMIBOLD.TTF");
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "SFPRODISPLAY";
+    font-family: "SF PRO DISPLAY";
     src: url("../fonts/SFPRODISPLAY-THINITALIC.TTF");
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "SFPRODISPLAY";
+    font-family: "SF PRO DISPLAY";
     src: url("../fonts/SFPRODISPLAY-ULTRALIGHT.TTF");
     font-weight: 200;
     font-style: normal;
@@ -77,7 +77,7 @@
 }
 
 .nav-link-nav-link-active {
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -103,7 +103,7 @@
 
 
 .nav-link {
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -114,7 +114,7 @@
 }
 
 .nav-link-Contact {
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -150,7 +150,9 @@
    
 }
 
-
+.page-header {
+    position: relative;   
+}
 
 .block-info {
     display: flex;
@@ -168,7 +170,7 @@
 }
 
 .text {
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -179,7 +181,7 @@
 }
 
 .export-product {
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display";
     font-style: normal;
     font-weight: bold;
     font-size: 120px;
@@ -196,7 +198,7 @@
 }
 
 .tel {
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
