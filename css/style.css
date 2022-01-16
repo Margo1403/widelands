@@ -73,10 +73,13 @@
 
 .nav-list {
     display: flex;
+    justify-content: space-between;
+    list-style-type: none;
    
 }
 
 .nav-link-nav-link-active {
+    display: flex;
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 600;
@@ -103,6 +106,7 @@
 
 
 .nav-link {
+    display: flex;
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 600;
@@ -114,6 +118,7 @@
 }
 
 .nav-link-Contact {
+    display: flex;
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 600;
@@ -126,6 +131,7 @@
 .links {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-between;
     left: 100px;
     top: 33px;
     width: 20px;
@@ -135,6 +141,7 @@
 
 
 }
+
 
 .page-header::before {
     position: absolute;
@@ -156,14 +163,12 @@
 
 .block-info {
     display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+   
     
 }
 
-.block-tel {
-    display: flex;
-
-  
-}
 .export {
     margin-left: 100px;
     margin-right: 100px;  
@@ -176,6 +181,7 @@
     font-size: 16px;
     line-height: 140%;
     color: #8C9EAA;
+    margin-top: 85px;
   
 
 }
@@ -185,10 +191,8 @@
     font-style: normal;
     font-weight: bold;
     font-size: 120px;
-    line-height: 90%;
     color: #072234;
-    display: flex;
-    flex-wrap: wrap;
+ 
   
 }
 
@@ -198,16 +202,45 @@
 }
 
 .tel {
+
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
     color: #072234;
- 
    
   
 
+   
 }
 
 
+.block-tel {
+    
+    list-style-type: none;
+    width: 100%;
+    align-items: flex-end;
+  
+
+  
+}
+
+.nav-tel {
+    padding-left: 596px;
+    padding-bottom: 5px;
+    list-style-type: none;
+    width: 100%;
+    align-items: flex-end;
+
+  
+}
+
+.photo-header {
+    width: 1720px;
+height: 965px;
+left: 100px;
+top: 456px;
+width: 1178px;
+height: 1720px;
+}
