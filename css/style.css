@@ -66,8 +66,8 @@
 .header-block {
     margin-top: 33px;
     margin-left: 100px;
-    margin-right: 100px;
     display: flex;
+   
     
 }
 
@@ -86,7 +86,7 @@
     font-size: 16px;
     line-height: 140%;
     color: #409DE2;
-    padding-left: 876px;
+    padding-left: 735px;
 
         
 }
@@ -94,7 +94,7 @@
 
 .nav-link-nav-link-active::before {
     position: absolute;
-    left: 62.79%;
+    left: 1080px;
     right: 32.5%;
    
     bottom: 0%;
@@ -130,16 +130,10 @@
 
 .links {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    left: 100px;
-    top: 33px;
-    width: 20px;
     height: 20px;
     padding-left: 200px;
-    padding-top: 23px;
-
-
+    padding-top: 15px;
+ 
 }
 
 
@@ -170,8 +164,7 @@
 }
 
 .export {
-    margin-left: 100px;
-    margin-right: 100px;  
+ margin: 100px;  
 }
 
 .text {
@@ -181,16 +174,19 @@
     font-size: 16px;
     line-height: 140%;
     color: #8C9EAA;
-    margin-top: 85px;
+    margin-bottom: 30px;
   
 
 }
-
+.product {
+    margin: 0px;
+}
 .export-product {
+    
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: bold;
-    font-size: 120px;
+    font-size: 90px;
     color: #072234;
  
   
@@ -221,26 +217,49 @@
     list-style-type: none;
     width: 100%;
     align-items: flex-end;
+    padding: 200px;
+    padding-bottom: 20px;
+   
   
 
   
 }
 
 .nav-tel {
-    padding-left: 596px;
-    padding-bottom: 5px;
+   
+  
     list-style-type: none;
     width: 100%;
     align-items: flex-end;
-
+    margin-left: 250px;
   
 }
 
-.photo-header {
-    width: 1720px;
-height: 965px;
-left: 100px;
-top: 456px;
-width: 1178px;
-height: 1720px;
+
+.acguaintance {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.about {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 90%;
+    color: #072234;
+
+}
+
+.heading{
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #072234;
+    padding-left: 810px;
+    padding-bottom: 61px;
+
+
 }
