@@ -129,10 +129,10 @@
 }
 
 .links {
-    display: flex;
-    height: 20px;
+    display: block;
     padding-left: 200px;
     padding-top: 15px;
+   
  
 }
 
@@ -239,6 +239,8 @@
 .acguaintance {
     margin-left: 100px;
     margin-right: 100px;
+    
+   
 }
 
 .about {
@@ -248,10 +250,16 @@
     font-size: 64px;
     line-height: 90%;
     color: #072234;
+    margin: 0 auto;
+    float: left;
+    
+  
+
+    
 
 }
 
-.heading{
+.heading {
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: normal;
@@ -259,7 +267,44 @@
     line-height: 140%;
     color: #072234;
     padding-left: 810px;
-    padding-bottom: 61px;
+    margin-top: 210px;
+    width: 1020px;
+      
+    
+}
+
+.indent {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #072234;
+    padding-left: 810px;
+    padding-bottom: 30px;
+    width: 1020px;
+}
+
+.line {
+    height: 1px;
+    margin-left: 810px;
+    width: 1020px; 
+}
 
 
+.paragraph {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #072234;
+    padding-left: 810px;
+    width: 1020px;
+    height: 136px;
+}
+
+.cargo {
+    
 }
