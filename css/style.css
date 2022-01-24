@@ -306,5 +306,129 @@
 }
 
 .cargo {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+  
+}
+
+.big-photo {
+    width: 707px;
+    height: 560px;
+    padding-right: 150px;
+}
+
+.photo-average {
+    width: 487px;
+    height: 525px;
+    padding-right: 165px;  
+}
+
+.small-photo {
+    width: 320px;
+    height: 288,59px;  
+}
+
+.assortiment {
+    background: #F1F3F4; 
+    background-image: url(../img/WIDELAND.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 80px  left 100px;
+    margin-top: 200px;
+    padding-top: 100px;
+    height: 1102px;
+    font-size: 288px;
+   
+
+}
+
+
+.heading-assortiment {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    
+}
+
+.title {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 90%;
+    color: #072234;
+    padding-left: 100px;
+
+
+}
+
+.about-products {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #072234;
+   
+    width: 690px;
+    height: 66px;
+  
+
+}
+
+.switching-left {
+    left: 1756px;
+    top: 2773px;
+    background: #409DE2;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid  #409DE2;  
+
+}
+
+.switching {
+    left: 1676px;
+    top: 2773px;
+    background: #409DE2;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid  #409DE2;
+}
+
+.button {
+  display: flex;
+  align-items: baseline; 
+  justify-content: space-between;
+   
+
+}
+
+.production-first {
+ 
+    width: 500px;
+    height: 540px;
+    left: 988px;
+    top: 2901px;
+   
+     
+}
+
+.production {
+   
+    width: 515px;
+    height: 493px;
+    left: 483px;
+    top: 2857.99px;
+
+}
+
+.photo {
+    display: flex;
+    position: absolute;
+    left: 810px;
+  
     
 }
