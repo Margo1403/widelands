@@ -335,7 +335,6 @@
     background-repeat: no-repeat;
     background-position: bottom 80px  left 100px;
     margin-top: 200px;
-    padding-top: 100px;
     height: 1102px;
     font-size: 288px;
    
@@ -346,7 +345,9 @@
 .heading-assortiment {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+
+   
   
     
 }
@@ -359,6 +360,7 @@
     line-height: 90%;
     color: #072234;
     padding-left: 100px;
+    padding-top: 207px;
 
 
 }
@@ -370,6 +372,8 @@
     font-size: 16px;
     line-height: 140%;
     color: #072234;
+    padding-left: 240px;
+    padding-top: 207px;
    
     width: 690px;
     height: 66px;
@@ -378,51 +382,41 @@
 }
 
 .switching-left {
-    left: 1756px;
-    top: 2773px;
+   
     background: #409DE2;
     height: 50px;
     width: 50px;
     border-radius: 50%;
     border: 1px solid  #409DE2;  
-
+   
 }
 
 .switching {
-    left: 1676px;
-    top: 2773px;
+   
     background: #409DE2;
     height: 50px;
     width: 50px;
     border-radius: 50%;
     border: 1px solid  #409DE2;
+   
 }
 
 .button {
-  display: flex;
-  align-items: baseline; 
-  justify-content: space-between;
-   
+    padding-right: 80px;
+    
 
 }
 
 .production-first {
- 
     width: 500px;
     height: 540px;
     left: 988px;
-    top: 2901px;
-   
-     
+    top: 2901px;    
 }
 
 .production {
-   
-    width: 515px;
-    height: 493px;
-    left: 483px;
-    top: 2857.99px;
-
+    width: 493px;
+    height: 600px;
 }
 
 .photo {
